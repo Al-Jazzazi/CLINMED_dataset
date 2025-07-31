@@ -39,8 +39,8 @@ Each CSV file contains annotated clinical or medically themed texts with rich me
 - `Corrected Sentence`: The medically correct version of the erroneous sentence
 - `Corrected Text`: The full corrected paragraph including the revised sentence
 - `Important Words`: Key medical terms or clues that determine the presence of the error
-- `Difficulty`: Level of complexity or challenge
-- `Reasoning Type`: Type of reasoning required 
+- `Difficulty`: Level of complexity or challenge (Easy, Medium, Hard)
+- `Reasoning Type`: Type of reasoning required  (Factual recall, Multi-hop, Single-hop)
 
 **Note:**  
 The Arabic dataset (`reviewed_ARA.csv` in each split) includes one additional column:
