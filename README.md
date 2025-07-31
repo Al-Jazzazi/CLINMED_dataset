@@ -29,9 +29,9 @@ Each file corresponds to one language and one data split.
 
 Each CSV file contains annotated clinical or medically themed texts with rich metadata for linguistic and reasoning analysis. The following columns are present in the files:
 
-- `Text ID`: Unique identifier for each entry (e.g., row-0, row-1)
-- `Text`: A complete clinical narrative, which may or may not contain an error
-- `Sentences`: The Text split into sentences, each with an index (e.g., 0,1,2…)
+- `Text ID`: Unique identifier for each entry (e.g., ara-test-0, ara-test-1)
+- `Text`: A complete clinical notes, which may or may not contain an error
+- `Sentences`: The text split into sentences, each with an index (e.g., 0,1,2…)
 - `Error Flag`: Indicates if an error is present: 1 = error present, 0 = no error
 - `Error Sentence ID`: Index of the sentence containing the error (corresponding to Sentences); -1 if no error
 - `Error Sentence`: The sentence containing the error
@@ -39,13 +39,13 @@ Each CSV file contains annotated clinical or medically themed texts with rich me
 - `Corrected Sentence`: The medically correct version of the erroneous sentence
 - `Corrected Text`: The full corrected paragraph including the revised sentence
 - `Important Words`: Key medical terms or clues that determine the presence of the error
-- `Difficulty`: Level of complexity or challenge (Easy, Medium, Hard)
-- `Reasoning Type`: Type of reasoning required  (Factual recall, Multi-hop, Single-hop)
+- `Difficulty`: Level of complexity or challenge (Easy, Medium, or Hard)
+- `Reasoning Type`: Type of reasoning required  (Factual recall, Multi-hop, or Single-hop)
 
 **Note:**  
 The Arabic dataset (`reviewed_ARA.csv` in each split) includes one additional column:
 
-- `Question Type`: Specifies the nature of the question (Knowledge-based question, or Scenario-based question)
+- `Question Type`: Specifies the nature of the question (Knowledge-based question or Scenario-based question)
 
 ## 🌐 Languages
 
