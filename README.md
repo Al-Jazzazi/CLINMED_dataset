@@ -1,4 +1,4 @@
-# CLINMED_dataset
+# MedErrBench_dataset
 
 
 ## 📁 Dataset Structure
@@ -27,7 +27,7 @@ Each file corresponds to one language and one data split.
 
 ## 📄 Data Description
 
-Each CSV file contains annotated clinical or medically themed texts with rich metadata for linguistic and reasoning analysis. The following columns are present in the files:
+Each CSV file contains annotated clinical or medically themed texts with rich metadata for linguistic and reasoning analysis. The standard format of the datasets contain the following columns:
 
 - `Text ID`: Unique identifier for each entry (e.g., ara-test-0, ara-test-1)
 - `Text`: A complete clinical notes, which may or may not contain an error
@@ -49,9 +49,9 @@ The Arabic dataset (`reviewed_ARA.csv` in each split) includes one additional co
 
 ## 🌐 Languages
 
-- **Arabic**: Includes all columns above, plus `Question Type`
-- **English**: Standard format with core columns
-- **Chinese**: Standard format with core columns
+- **Arabic**: Standard format, plus Question Type
+- **English**: Standard format 
+- **Chinese**: Standard format 
 
 
 
